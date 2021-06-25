@@ -4,12 +4,12 @@ var router = express.Router();
 const stripe = require('stripe')('sk_test_51HQ84jAXaqH2oTbzs6WzzYrmyFALxjsUc5LMZ9qUO5U0xbIrLCQ1IlcDw8HszRZZGLQCkmLkPhXX6U85gAbTlps000GwYlnt4c');
 
 var dataBike = [
-  {name:"BIK045", url:"/images/bike-1.jpg", price:679},
-  {name:"ZOOK07", url:"/images/bike-2.jpg", price:999},
-  {name:"TITANS", url:"/images/bike-3.jpg", price:799},
-  {name:"CEWO", url:"/images/bike-4.jpg", price:1300},
-  {name:"AMIG039", url:"/images/bike-5.jpg", price:479},
-  {name:"LIK099", url:"/images/bike-6.jpg", price:869},
+  {name:"Lasista", url:"/images/Manolo1.jpeg", price:329},
+  {name:"Gerontius", url:"/images/Manolo2.jpeg", price:287},
+  {name:"Espanta", url:"/images/Manolo3.jpeg", price:325},
+  {name:"Paloma", url:"/images/Manolo4.jpeg", price:477},
+  {name:"Bikulu", url:"/images/Manolo5.jpeg", price:501},
+  {name:"Zaira", url:"/images/Manolo6.jpeg", price:346},
 ]
 
 

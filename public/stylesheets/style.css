@@ -8,10 +8,11 @@ body{
 /* ---------- Home page -------------- */
 
 .jumbotron {
-    background-image: url('/images/bike-background.jpg');
+    background-image: url('/images/baskets.jpeg');
     background-size: cover;
     background-position: center;
-    height: 150px;
+    height: 200px;
+    opacity: 0.5;
   }
 
 
